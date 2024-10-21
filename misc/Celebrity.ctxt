@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Celebrity
+comment0.text=\n\ Celebrity\ base\ class\ for\ the\ Celebrity\ game.\n\ @author\ cody.henrichsen\n\ @version\ 1.4\ 17/09/2018\n
+comment1.params=answer\ clue
+comment1.target=Celebrity(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Creates\ a\ Celebrity\ instance\ with\ the\ supplied\ answer\ and\ clue\n\ @param\ answer\n\ @param\ clue\n
+comment2.params=
+comment2.target=java.lang.String\ getClue()
+comment2.text=\n\ Supplies\ the\ clue\ for\ the\ celebrity\n\ @return\n
+comment3.params=
+comment3.target=java.lang.String\ getAnswer()
+comment3.text=\n\ Supplies\ the\ answer\ for\ the\ celebrity.\n\ @return\n
+comment4.params=clue
+comment4.target=void\ setClue(java.lang.String)
+comment4.text=\n\ Updates\ the\ clue\ to\ the\ provided\ String.\n\ @param\ clue\ The\ new\ clue.\n
+comment5.params=answer
+comment5.target=void\ setAnswer(java.lang.String)
+comment5.text=\n\ Updates\ the\ answer\ to\ the\ provided\ String.\n\ @param\ answer\ The\ new\ answer.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Provides\ a\ String\ representation\ of\ the\ Celebrity.\n
+numComments=7

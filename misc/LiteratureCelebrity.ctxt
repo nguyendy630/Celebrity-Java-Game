@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LiteratureCelebrity
+comment0.text=\n\ Subclass\ of\ Celebrity\ to\ show\ how\ methods\ can\ be\ overridden\ and\ super\ can\ be\ called\ while\ changing\ functionality.\n\ @author\ cody.henrichsen\n\ @version\ 1.0\ 15/09/2018\n
+comment1.params=answer\ clues
+comment1.target=LiteratureCelebrity(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Builds\ a\ LiteratureCelebrity\ instance\ with\ an\ answer\ and\ a\ series\ of\ clues\ as\ a\ String\ separated\ by\ commas.\n\ @param\ answer\ The\ literature\ celebrity\n\ @param\ clues\ Clues\ for\ the\ literature\ celebrity\ \n
+comment2.params=
+comment2.target=void\ processClues()
+comment2.text=\n\ Processes\ the\ series\ of\ clues\ for\ the\ LiteratureCelebrity\ by\ adding\ all\ the\ values\ to\ an\ ArrayList<String>\ by\n\ splitting\ the\ original\ clue\ to\ an\ array\ of\ String.\n\ The\ original\ value\ is\ not\ impacted,\ thus\ preserving\ data\ and\ inheritance\ integrity.\n
+comment3.params=
+comment3.target=java.lang.String\ getClue()
+comment3.text=\n\ Overridden\ version\ of\ the\ getClue()\ method\ that\ cycles\ through\ each\ of\ the\ individual\ clues\ in\ the\ series.\n\ It\ recreates\ the\ clueList\ if\ the\ user\ has\ finished\ the\ series\ of\ clues.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

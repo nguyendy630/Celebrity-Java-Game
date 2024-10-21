@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=StartPanel
+comment0.text=\n\ The\ start\ screen\ for\ the\ CelebrityGame\ app.\n\ \n\ @author\ cody.henrichsen\n\ @version\ 2.1\ 18/09/2018\ Refactored\ away\ validation\ to\ controller.\n
+comment1.params=controller
+comment1.target=StartPanel(CelebrityGame)
+comment1.text=\n\ Constructs\ a\ StartPanel\ with\ a\ reference\ to\ the\ game\ passed\ as\ a\n\ parameter\ to\ be\ used\ as\ a\ data\ member.\n\ \n\ @param\ controller\n\ \ \ \ \ \ \ \ \ \ \ \ The\ reference\ to\ the\ game\n
+comment2.params=answerText\ clueText
+comment2.target=boolean\ validate(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Validation\ method\ for\ the\ text\ to\ create\ a\ Celebrity\ instance.\n\ \n\ @param\ answerText\n\ \ \ \ \ \ \ \ \ \ \ \ The\ name\ of\ the\ Celebrity.\ Validation\ requires\ at\ least\ 4\n\ \ \ \ \ \ \ \ \ \ \ \ characters.\n\ @param\ clueText\n\ \ \ \ \ \ \ \ \ \ \ \ The\ text\ for\ the\ clue.\ Validation\ depends\ on\ the\ selected\n\ \ \ \ \ \ \ \ \ \ \ \ Celebrity\ type,\ but\ at\ least\ 10\ characters\ are\ required.\n\ @return\ Whether\ the\ appropriate\ text\ amounts\ are\ filled\ and\ the\ correct\n\ \ \ \ \ \ \ \ \ type\ of\ clue\ is\ given.\n
+comment3.params=
+comment3.target=void\ setupPanel()
+comment3.text=\n\ Adds\ all\ components\ to\ the\ StartPanel\ and\ uses\ the\ SpringLayout\ variable,\n\ panelLayout,\ as\ the\ layout\ manager.\n
+comment4.params=
+comment4.target=void\ setupLayout()
+comment4.text=\n\ Uses\ the\ Springlayout\ constraint\ system\ to\ place\ all\ GUI\ components\ on\n\ screen.\ All\ constraints\ grouped\ together\ to\ keep\ code\ clean\ and\n\ maintainable.\n
+comment5.params=
+comment5.target=void\ setupListeners()
+comment5.text=\n\ Used\ to\ link\ all\ Listeners\ to\ the\ associated\ GUI\ components.\n
+comment6.params=mouseClick
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=mouseClick
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=void\ invalidInput()
+comment9.params=
+comment9.target=void\ addToGame()
+numComments=10

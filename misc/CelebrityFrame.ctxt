@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CelebrityFrame
+comment0.text=\n\ GUI\ Frame\ class\ for\ the\ Celebrity\ Game\n\ @author\ cody.henrichsen\n\ @version\ 2.1\ 17/09/2018\n
+comment1.params=controllerRef
+comment1.target=CelebrityFrame(CelebrityGame)
+comment1.text=\n\ Builds\ an\ instance\ of\ the\ CelebFrame\ with\ a\ reference\ to\ the\ CelebrityGame\ instance.\n\ @param\ controller\ A\ reference\ to\ a\ CelebrityGame\ to\ share\ with\ the\ CelebPanel\ instance.\n
+comment2.params=
+comment2.target=void\ setupFrame()
+comment2.text=\n\ Configures\ the\ JFrame\ window\ subclass\ to\ add\ the\ panel\ and\ set\ size\ based\ information.\n
+comment3.params=screen
+comment3.target=void\ replaceScreen(java.lang.String)
+comment3.text=\n\ Swaps\ the\ screen\ between\ the\ existing\ panels\ based\ on\ the\ String\ parameter.\n\ @param\ screen\ The\ name\ of\ the\ screen\ to\ open.\n
+numComments=4

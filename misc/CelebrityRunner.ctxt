@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CelebrityRunner
+comment0.text=\n\ Starts\ the\ Celebrity\ Game\ application\n\ @author\ cody.henrichsen\n\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ entry\ point\ of\ the\ Java\ application.\n\ @param\ args\ Unused\ parameter\ as\ it\ is\ a\ GUI\ based\ program.\n
+numComments=2
